@@ -1,0 +1,54 @@
+
+# CC150 1.1
+
+实现一个算法，确定一个字符串的所有字符是否全都不同。假使不允许使用额外的数据结构，又该如何处理？
+
+如果可以使用内置的数据结构，那么字典、集合、哈希表是最佳的选择。不能的话就得自己实现一遍。
+
+map-reduce的思想来自桶排序（计数排序）
+
+
+```python
+
+# coding=utf-8
+
+
+def has_diff_char(temp_str):
+
+    if temp_str is None or len(temp_str) == 0:
+        return False
+
+    temp_list = list(temp_str)
+
+    hash_container = [0 for i in range(0, 256)]
+
+    for item in temp_list:
+
+        hash_container[ord(item)] += 1
+
+    for item in hash_container:
+        if item > 1:
+            return True
+
+    return False
+
+test_case = [
+    ['', False],
+    [None, False],
+    ['abcdef', False],
+    ['a', False],
+    ['aaaaaa', True],
+    ['!@#$%^&*()_+', False],
+    ['Aa', False],
+    ['abccdefghdkd', True]
+]
+
+for value in test_case:
+
+    if has_diff_char(value[0]) == value[1]:
+        print('通过')
+    else:
+        print('不通过')
+
+
+```
