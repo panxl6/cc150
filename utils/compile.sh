@@ -2,6 +2,7 @@
 
 declare -A file_name_map
 
+# 数组和字符串
 file_name_map['1.1']="1.1 判断字符串是否有重复的字符"
 file_name_map['1.2']="1.2 反转字符串"
 file_name_map['1.3']="1.3 判断两个字符串能否通过重排列变为相同的字符串"
@@ -13,7 +14,5 @@ file_name_map['1.8']="1.8 判断是否为子字符串"
 file_name_map['1.9']="1.9 有序数组循环移动，找最小值"
 
 for key in "${!file_name_map[@]}"; do
-	echo "jupyter/$key.ipynb";
-	echo "${file_name_map[$key]}.md";
 	jupyter nbconvert "jupyter/$key.ipynb" --to markdown --output "../8.1 数组和字符串/${file_name_map[$key]}.md"
 done
