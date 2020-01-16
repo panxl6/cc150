@@ -28,7 +28,7 @@ jupyter notebook
 | 1.3    | [1.3 判断两个字符串能否通过重排列变为相同的字符串](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.3%20判断两个字符串能否通过重排列变为相同的字符串.md) |  |
 | 1.4    | [1.4 用%20替换掉空格](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.4%20用%2520替换掉空格.md) |  |
 | 1.5    | [1.5 字符串压缩](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.5%20字符串压缩.md) |  |
-| 1.6    | [1.6 翻转矩阵](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.6%20翻转矩阵.md) |  |
+| 1.6    | [1.6 旋转矩阵](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.6%20翻转矩阵.md) |  |
 | 1.7    | [1.7 将矩阵中0元素所在行、列清零](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.7%20将矩阵中0元素所在行、列清零.md) |  |
 | 1.8    | [1.8 判断是否为子字符串](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.8%20判断是否为子字符串.md) |  |
 | 1.9    | [1.9 有序数组循环移动，找最小值](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.9%20有序数组循环移动，找最小值.md) |  |
@@ -39,4 +39,6 @@ jupyter notebook
 - [ ] 美化文字格式，提升阅读体验
 - [ ] 增加LeetCode的相关专题
 - [ ] 完成后续的章节
+- [ ] 增加第六版的内容
+- [ ] 对比官方的Java版答案，校验一次
 - [ ] 抽象测试用例运行框架，实现一个Online judge
