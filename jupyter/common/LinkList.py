@@ -31,3 +31,14 @@ class LinkList:
         while head is not None:
             print(head.val)
             head = head.next
+
+    def to_array(self, head):
+        if head is None:
+            return []
+        
+        array = []
+        while head is not None:
+            array.append(head.val)
+            head = head.next
+        return array
+
