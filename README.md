@@ -30,6 +30,7 @@ jupyter notebook
 | 1.9    | [1.9 有序数组循环移动，找最小值](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.9%20有序数组循环移动，找最小值.md) |  |
 | 2.1    | [2.1 移除未排序链表中的重复节点](https://github.com/panxl6/cc150/blob/master/8.2%20链表/2.1%20移除未排序链表中的重复节点.md) |  |
 | 2.2    | [2.2 取倒数第K的值](https://github.com/panxl6/cc150/blob/master/8.2%20链表/2.2%20取倒数第K的值.md) |  |
+| 2.4    | [2.4 按基准值将链表分为两部分](https://github.com/panxl6/cc150/blob/master/8.2%20链表/2.4%20按基准值将链表分为两部分.md) |  |
 
 
 
