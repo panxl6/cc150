@@ -12,10 +12,6 @@
 # 安装jupyter
 pip3 install jupyter
 
-# 安装C语言环境
-pip3 install jupyter-c-kernel
-sudo $HOME/.local/bin/install_c_kernel
-
 # 进入项目下的jupter目录,启动jupyter服务器.访问地址http://localhost:8888/tree
 jupyter notebook
 ```
@@ -32,6 +28,18 @@ jupyter notebook
 | 1.7    | [1.7 将矩阵中0元素所在行、列清零](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.7%20将矩阵中0元素所在行、列清零.md) |  |
 | 1.8    | [1.8 判断是否为子字符串](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.8%20判断是否为子字符串.md) |  |
 | 1.9    | [1.9 有序数组循环移动，找最小值](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.9%20有序数组循环移动，找最小值.md) |  |
+
+# 备注
+- 链表节点的定义参照LeetCode模板
+```python
+# Definition for singly-linked list.
+class ListNode:
+    
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+```
+
 
 # 计划表
 
