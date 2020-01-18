@@ -34,7 +34,7 @@ jupyter notebook
 
 
 # 备注
-- 链表节点的定义参照LeetCode模板
+- 链表节点的定义。
 ```python
 # Definition for singly-linked list.
 class ListNode:
@@ -42,6 +42,12 @@ class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
+```
+- 相关的公共放在了`jupyter/common`目录，引入方式如下：
+```python
+import os
+import sys
+sys.path.insert(0, os.path.abspath('./common'))
 ```
 
 
