@@ -28,6 +28,9 @@ jupyter notebook
 | 1.7    | [1.7 将矩阵中0元素所在行、列清零](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.7%20将矩阵中0元素所在行、列清零.md) |  |
 | 1.8    | [1.8 判断是否为子字符串](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.8%20判断是否为子字符串.md) |  |
 | 1.9    | [1.9 有序数组循环移动，找最小值](https://github.com/panxl6/cc150/blob/master/8.1%20数组和字符串/1.9%20有序数组循环移动，找最小值.md) |  |
+| 2.2    | [2.2 取倒数第K的值](https://github.com/panxl6/cc150/blob/master/8.2%20链表/2.2%20取倒数第K的值.md) |  |
+
+
 
 # 备注
 - 链表节点的定义参照LeetCode模板
