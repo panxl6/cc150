@@ -184,6 +184,14 @@ sys.path.insert(0, os.path.abspath('./common'))
 | 12.10   | **分配内存**  | 编写支持对齐分配的 malloc 和 free 函数,分配内存时, malloc 函数返回的地址必须能被 2 的 n 次方整除。<br>示例: align_malloc(1000,128)返回的内存地址可被128整除,并指向一块1000字节大小的内存。 aligned_free() 会释放 align_malloc 分配的内存。 |
 | 12.11   | **二维数组分配**  | 用 C 编写一个 my2DAlloc 函数,可分配二维数组。将 malloc 函数的调用次数降到最少,并确保可通过 arr[i][j] 访问该内存。 |
 |  | | <h4>Java<h4> |
+| 13.1    | **私有构造函数**  | 从继承的角度看,把构造函数声明为私有会有何作用? |
+| 13.2    | **异常处理中的返回**  | 在 Java 中,若在 try-catch-finally 的 try 语句块中插入 return语句, finally 语句块是否还会执行? |
+| 13.3    | **final 们**  | final 、 finally 和 finalize 之间有何差异? |
+| 13.4    | **泛型与模板**  | C++模板和 Java 泛型之间有何不同? |
+| 13.5    | **TreeMap 、 HashMap 、 LinkedHashMap**  | 解释一下TreeMap 、 HashMap 、 LinkedHashMap三者的不同之处。举例说明各自最适合的情况。|
+| 13.6    | **反射**  | 解释下 Java 中对象反射是什么,有什么用处。 |
+| 13.7    | **lambda 表达式**  | 有一个名为 Country 的类,它有两种方法,一种是 getContinent() 返回该国家所在大洲,另一种是 getPopulation() 返回本国人口。实现一种名为 getPopulation (List<Country> counties,String continent) 的方法,返回值类型为 int 。它能根据指定的大洲名和国家列表计算出该大洲的人口总数。 |
+| 13.8    | **lambda 随机数**  | 使用 lambda 表达式写一种名为 getRandomSubset(List<Integer> list)的方法,返回值类型为 List<Integer> ,返回一个任意大小的随机子集,所有子集(包括空子集)选中的概率都一样。 |
 |  | | <h4>数据库<h4> |
 |  | | <h4>线程与锁<h4> |
 |  | | <h4>中等难题<h4> |
@@ -196,6 +204,6 @@ sys.path.insert(0, os.path.abspath('./common'))
 - [ ] 增加LeetCode的相关专题
 - [ ] 完成后续的章节
 - [ ] 增加示意图或动画
-- [ ] 增加第六版的内容
+- [x] 增加第六版的内容
 - [ ] 对比官方的Java版答案，校验一次
 - [ ] 抽象测试用例运行框架，实现一个Online judge
