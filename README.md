@@ -2,7 +2,7 @@
 
 算法面试圣经(俗称cc150)《Cracking the Coding Interview: 150 Programming Interview Questions and Solutions》。LeetCode上很多的题目都是来自这本书的。
 
-这本书覆盖了后端开发知识体系的方方面面。([第六版](http://download.csdn.net/download/u011433684/9553267))。官方给出的是Java版，这整理了第六版的Python实现。由于是个人的业余实现，可能存在错误。
+这本书覆盖了后端开发知识体系的方方面面。([第六版](https://www.ituring.com.cn/book/1876))。官方给出的是Java版，这整理了第六版的Python实现。由于是个人的业余实现，可能存在错误。
 
 本项目使用jupyter编写，导出markdown格式。这样既可以像阅读ppt一样浏览，也可以随时动手验证自己的想法。
 
