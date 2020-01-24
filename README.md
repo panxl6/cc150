@@ -193,6 +193,13 @@ sys.path.insert(0, os.path.abspath('./common'))
 | 13.7    | **lambda 表达式**  | 有一个名为 Country 的类,它有两种方法,一种是 getContinent() 返回该国家所在大洲,另一种是 getPopulation() 返回本国人口。实现一种名为 getPopulation (List<Country> counties,String continent) 的方法,返回值类型为 int 。它能根据指定的大洲名和国家列表计算出该大洲的人口总数。 |
 | 13.8    | **lambda 随机数**  | 使用 lambda 表达式写一种名为 getRandomSubset(List<Integer> list)的方法,返回值类型为 List<Integer> ,返回一个任意大小的随机子集,所有子集(包括空子集)选中的概率都一样。 |
 |  | | <h4>数据库<h4> |
+| 14.1    | **多套公寓**  | 编写SQL查询,列出租住不止一套公寓的承租人。 |
+| 14.2    | **“ open ”的申请数量**  | 编写 SQL 查询,列出所有建筑物,并取得状态为“ Open ”的申请数量( Requests 表中 Status 为“ Open ”的条目)。 |
+| 14.3    | **关闭所有请求**  | 11 号建筑物正在进行大翻修。编写 SQL 查询,关闭这栋建筑物里所有公寓的入住申请。 |
+| 14.4    | **连接**  | 连接有哪些不同类型?请说明这些类型之间的差异,以及为何在某些情形下,某种连接会比较好。 |
+| 14.5    | **反规范化**  | 什么是反规范化?请说明其优缺点。 |
+| 14.6    | **画一个实体关系图**  | 有个数据库,里面有公司( companies )、人( people )和在职专业人员( professional ),请绘制实体关系图。 |
+| 14.7    | **设计分级数据库**  | 给定一个存储学生成绩的简单数据库。设计这个数据库的大体框架,并编写 SQL 查询,返回以平均分排序的优等生名单(排名前 10%)。<br> ![表设计](https://raw.githubusercontent.com/panxl6/blog/master/Images/table.png) |
 |  | | <h4>线程与锁<h4> |
 |  | | <h4>中等难题<h4> |
 |  | | <h4>高难度题<h4> |
