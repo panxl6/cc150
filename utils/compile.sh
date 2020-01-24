@@ -22,10 +22,9 @@ file_name_map['2.4']="2.4 按基准值将链表分为两部分"
 
 
 ## 目录映射
-dir_name_map['1']="8.1 数组和字符串"
-dir_name_map['2']="8.2 链表"
+result_dir="markdown"
 
 for key in "${!file_name_map[@]}"; do
 	dir_key=`echo "$key" | cut -b 1`
-	jupyter nbconvert "jupyter/$key.ipynb" --to markdown --output "../${dir_name_map[$dir_key]}/${file_name_map[$key]}.md"
+	jupyter nbconvert "jupyter/$key.ipynb" --to markdown --output "../$result_dir/${file_name_map[$key]}.md"
 done
