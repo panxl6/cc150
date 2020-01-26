@@ -7,7 +7,7 @@ declare -A dir_name_map
 file_name_map['1.1']="1.1 判断字符串是否有重复的字符"
 file_name_map['1.2']="1.2 判定是否互为字符重排"
 file_name_map['1.3']="1.3 URL化"
-file_name_map['1.4']="1.4 用%20替换掉空格"
+file_name_map['1.4']="1.4 回文排列"
 file_name_map['1.5']="1.5 字符串压缩"
 file_name_map['1.6']="1.6 旋转矩阵"
 file_name_map['1.7']="1.7 将矩阵中0元素所在行、列清零"
