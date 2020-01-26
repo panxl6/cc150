@@ -4,7 +4,7 @@ declare -A file_name_map
 declare -A dir_name_map
 
 # 数组和字符串
-file_name_map['1.1']="1.1判断字符串是否有重复的字符"
+file_name_map['1.1']="1.1 判断字符串是否有重复的字符"
 file_name_map['1.2']="1.2 判定是否互为字符重排"
 file_name_map['1.3']="1.3 URL化"
 file_name_map['1.4']="1.4 用%20替换掉空格"
