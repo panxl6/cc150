@@ -1,0 +1,35 @@
+[I 12:38:11.410 NotebookApp] Serving notebooks from local directory: /home/ubuntu/Projects/cc150/jupyter
+[I 12:38:11.411 NotebookApp] The Jupyter Notebook is running at:
+[I 12:38:11.411 NotebookApp] http://localhost:8888/?token=f8081395442a6d1ab8f9094feadf327ffd77150d458fd85f
+[I 12:38:11.411 NotebookApp]  or http://127.0.0.1:8888/?token=f8081395442a6d1ab8f9094feadf327ffd77150d458fd85f
+[I 12:38:11.411 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:38:11.418 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/ubuntu/.local/share/jupyter/runtime/nbserver-10847-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=f8081395442a6d1ab8f9094feadf327ffd77150d458fd85f
+     or http://127.0.0.1:8888/?token=f8081395442a6d1ab8f9094feadf327ffd77150d458fd85f
+[10902:10902:0128/123812.129596:ERROR:sandbox_linux.cc(372)] InitializeSandbox() called with multiple threads in process gpu-process.
+[10868:10868:0128/123814.464629:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Request canceled.
+[I 12:38:32.467 NotebookApp] Kernel started: ad5b6421-91ac-466e-a4ce-0a57f80a3a6d
+[I 12:40:32.453 NotebookApp] Saving file at /1.5.ipynb
+[I 12:42:32.442 NotebookApp] Saving file at /1.5.ipynb
+[I 12:43:20.772 NotebookApp] Saving file at /1.5.ipynb
+[I 12:46:31.063 NotebookApp] Saving file at /1.5.ipynb
+[I 12:48:32.439 NotebookApp] Saving file at /1.5.ipynb
+[I 12:48:39.671 NotebookApp] Saving file at /1.5.ipynb
+[I 12:50:32.438 NotebookApp] Saving file at /1.5.ipynb
+[I 12:52:32.439 NotebookApp] Saving file at /1.5.ipynb
+[I 12:53:52.089 NotebookApp] Saving file at /1.5.ipynb
+[I 13:04:13.661 NotebookApp] Saving file at /1.5.ipynb
+[I 13:04:32.439 NotebookApp] Saving file at /1.5.ipynb
+[I 13:06:14.187 NotebookApp] Saving file at /1.5.ipynb
+[I 13:06:32.441 NotebookApp] Saving file at /1.5.ipynb
+[I 13:08:33.158 NotebookApp] Saving file at /1.5.ipynb
+[I 13:10:33.160 NotebookApp] Saving file at /1.5.ipynb
+[I 13:12:33.163 NotebookApp] Saving file at /1.5.ipynb
+[I 13:14:33.164 NotebookApp] Saving file at /1.5.ipynb
+[I 13:14:37.872 NotebookApp] Saving file at /1.5.ipynb
+[I 13:16:20.339 NotebookApp] Saving file at /1.5.ipynb
+[I 13:16:30.783 NotebookApp] Saving file at /1.5.ipynb
