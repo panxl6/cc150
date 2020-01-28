@@ -49,7 +49,7 @@ sys.path.insert(0, os.path.abspath('./common'))
 | 1.3    | [**URL化**](https://github.com/panxl6/cc150/blob/master/markdown/1.3%20URL化.md) | 编写一种方法,将字符串中的空格全部替换为 %20 。假定该字符串尾部有足够的空间存放新增字符,并且知道字符串的“真实”长度。(注:用 Java 实现的话,请使用字符数组实现,以便直接在数组上操作。) <br>*示例*:<br>*输入:* "Mr John Smith", 13 <br>*输出:* "Mr%20John%20Smith" |
 | 1.4    | [**回文排列**](https://github.com/panxl6/cc150/blob/master/markdown/1.4%20回文排列.md)  | 给定一个字符串,编写一个函数判定其是否为某个回文串的排列之一。回文串是指正反两个方向都一样的单词或短语。排列是指字母的重新排列。回文串不一定是字典当中的单词。<br>*示例:*<br>*输入:* Tact Coa<br>*输出:* True (排列有 "taco cat" 、 "atco cta" ,等等) |
 | 1.5    | [**一次编辑**](https://github.com/panxl6/cc150/blob/master/markdown/1.5%20一次编辑.md)  | 字符串有三种编辑操作:插入一个字符、删除一个字符或者替换一个字符。给定两个字符串,编写一个函数判定它们是否只需要一次(或者零次)编辑。<br>*示例:* <br> pale, ple -> true <br>pales, pale -> true <br>pale, bale -> true <br> pale, bake -> false |
-| 1.6    | **字符串压缩**  | 利用字符重复出现的次数,编写一种方法,实现基本的字符串压缩功能。比如,字符串 aabcccccaaa 会变为 a2b1c5a3 。若“压缩”后的字符串没有变短,则返回原先的字符串。你可以假设字符串中只包含大小写英文字母(a 至 z) |
+| 1.6    | [**字符串压缩**](https://github.com/panxl6/cc150/blob/master/markdown/1.6%20字符串压缩.md)  | 利用字符重复出现的次数,编写一种方法,实现基本的字符串压缩功能。比如,字符串 aabcccccaaa 会变为 a2b1c5a3 。若“压缩”后的字符串没有变短,则返回原先的字符串。你可以假设字符串中只包含大小写英文字母(a 至 z) |
 | 1.7    | **旋转矩阵**  | 给定一幅由 N × N 矩阵表示的图像,其中每个像素的大小为 4 字节,编写一种方法,将图像旋转 90 度。不占用额外内存空间能否做到? |
 | 1.8    | **零矩阵**  | 编写一种算法,若 M × N 矩阵中某个元素为 0,则将其所在的行与列清零。 |
 | 1.9    | **字符串轮转**  | 假定有一种 isSubstring 方法,可检查一个单词是否为其他字符串的子串。给定两个字符串 s1 和 s2 ,请编写代码检查 s2 是否为 s1 旋转而成,要求只能调用一次isSubstring (比如, waterbottle 是 erbottlewat 旋转后的字符串)。 |
