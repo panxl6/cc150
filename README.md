@@ -51,7 +51,7 @@ sys.path.insert(0, os.path.abspath('./common'))
 | 1.5    | [**一次编辑**](https://github.com/panxl6/cc150/blob/master/markdown/1.5%20一次编辑.md)  | 字符串有三种编辑操作:插入一个字符、删除一个字符或者替换一个字符。给定两个字符串,编写一个函数判定它们是否只需要一次(或者零次)编辑。<br>*示例:* <br> pale, ple -> true <br>pales, pale -> true <br>pale, bale -> true <br> pale, bake -> false |
 | 1.6    | [**字符串压缩**](https://github.com/panxl6/cc150/blob/master/markdown/1.6%20字符串压缩.md)  | 利用字符重复出现的次数,编写一种方法,实现基本的字符串压缩功能。比如,字符串 aabcccccaaa 会变为 a2b1c5a3 。若“压缩”后的字符串没有变短,则返回原先的字符串。你可以假设字符串中只包含大小写英文字母(a 至 z) |
 | 1.7    | **旋转矩阵**  | 给定一幅由 N × N 矩阵表示的图像,其中每个像素的大小为 4 字节,编写一种方法,将图像旋转 90 度。不占用额外内存空间能否做到? |
-| 1.8    | **零矩阵**  | 编写一种算法,若 M × N 矩阵中某个元素为 0,则将其所在的行与列清零。 |
+| 1.8    | [**零矩阵**](https://github.com/panxl6/cc150/blob/master/markdown/1.8%20零矩阵.md)  | 编写一种算法,若 M × N 矩阵中某个元素为 0,则将其所在的行与列清零。 |
 | 1.9    | **字符串轮转**  | 假定有一种 isSubstring 方法,可检查一个单词是否为其他字符串的子串。给定两个字符串 s1 和 s2 ,请编写代码检查 s2 是否为 s1 旋转而成,要求只能调用一次isSubstring (比如, waterbottle 是 erbottlewat 旋转后的字符串)。 |
 |        | | <h4>链表<h4> |
 | 2.1    | **移除重复节**  | 编写代码，移除未排序链表中的重复节点。<br> *进阶：* 如果不得使用临时缓冲区，该怎么解决？ |
