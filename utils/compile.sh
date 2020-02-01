@@ -20,6 +20,7 @@ file_name_map['2.1']="2.1 移除重复节点"
 file_name_map['2.3']="2.3 删除中间节点"
 file_name_map['2.2']="2.2 返回倒数第k个节点"
 file_name_map['2.4']="2.4 分割链表"
+file_name_map['2.5']="2.5 链表求和"
 
 
 ## 目录映射
