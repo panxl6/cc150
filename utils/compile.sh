@@ -17,7 +17,7 @@ file_name_map['1.9']="1.9 字符串轮转"
 
 # 链表
 file_name_map['2.1']="2.1 移除重复节点"
-file_name_map['2.2']="2.2 取倒数第K的值"
+file_name_map['2.2']="2.2 返回倒数第k个节点"
 file_name_map['2.4']="2.4 按基准值将链表分为两部分"
 
 
