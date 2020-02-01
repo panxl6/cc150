@@ -42,3 +42,15 @@ class LinkList:
             head = head.next
         return array
 
+    def get_node_by_value(self, head, value):
+        if head is None:
+            return head
+        
+        while head is not None:
+            if head.val == value:
+                return head
+            head = head.next
+        
+        return None
+
+
