@@ -32,6 +32,16 @@ class LinkList:
             print(head.val)
             head = head.next
 
+    def get_list_length(self, head):
+        if head is None:
+            return 0
+        
+        count = 0
+        while head is not None:
+            count += 1
+            head = head.next
+        return count
+
     def to_array(self, head):
         if head is None:
             return []
