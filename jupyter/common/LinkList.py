@@ -63,4 +63,22 @@ class LinkList:
         
         return None
 
+    def join_list(self, A, B, joinPosition):
+        if A is None or B is None:
+            return
+
+        while True:
+            if B.next is None:
+                break
+            B = B.next
+        
+        count = 1
+        while A is not None:
+            if count == joinPosition:
+                B.next = A
+                break
+            count += 1
+            A = A.next
+        pass
+
 
