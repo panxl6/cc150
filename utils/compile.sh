@@ -23,6 +23,7 @@ file_name_map['2.4']="2.4 分割链表"
 file_name_map['2.5']="2.5 链表求和"
 file_name_map['2.6']="2.6 回文链表"
 file_name_map['2.7']="2.7 链表相交"
+file_name_map['2.8']="2.8 环路检测"
 
 # 排序与查找
 file_name_map['10.1']="10.1 合并排序的数组"

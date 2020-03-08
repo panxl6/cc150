@@ -63,6 +63,7 @@ class LinkList:
         
         return None
 
+    # 将链表B相交于链表A的位置joinPosition
     def join_list(self, A, B, joinPosition):
         if A is None or B is None:
             return
@@ -79,6 +80,22 @@ class LinkList:
                 break
             count += 1
             A = A.next
-        pass
+
+    def make_list_cycle(self, A, cyclePosition):
+        if A is None:
+            return
+
+        tempA = A
+        while tempA.next is not None:
+            tempA = tempA.next
+        
+        count = 1
+        while A is not None:
+            if count == cyclePosition:
+                tempA.next = A
+                break
+            count += 1
+            A = A.next
+
 
 
